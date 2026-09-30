@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div class="brand">MY<span>AI</span></div>
+      <button id="clearBtn" class="ghost">Clear</button>
+    </header>
+
+    <section id="chat" class="chat">
+      <div class="welcome">
+        <h1>Halo 👋</h1>
+        <p>Tanya apa aja ke AI kamu.</p>
+      </div>
+    </section>
+
+    <form id="chatForm" class="composer">
+      <textarea id="prompt" rows="1" placeholder="Ketik pesan..." autocomplete="off"></textarea>
+      <button id="sendBtn" type="submit">➤</button>
+    </form>
+    <p class="hint">Enter untuk kirim • Shift+Enter untuk baris baru</p>
+  </main>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
